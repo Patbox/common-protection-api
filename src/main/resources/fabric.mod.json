@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "common-protection-api",
+  "version": "${version}",
+
+  "name": "Common Protection API",
+  "description": "General API for mods to check area protection",
+  "authors": [
+    "Patbox"
+  ],
+  "contact": {
+    "homepage": "https://pb4.eu",
+    "sources": "https://github.com/Patbox/common-protection-api"
+  },
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"],
+      "discord": "https://pb4.eu/discord"
+    }
+  }
+}
